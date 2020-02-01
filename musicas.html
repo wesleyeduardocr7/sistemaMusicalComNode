@@ -33,38 +33,31 @@
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-
           <li><a href="index.html">Home</a></li>
-
           <li class="drop-down"><a href="musicas.html">Músicas</a>
             <ul>
               <li><a href="musicas.html#buscaMusica">Busca</a></li>              
               <li><a href="musicas.html">Cadastro</a></li>             
             </ul>            
-          </li>   
-
+          </li>  
           <li class="drop-down"><a href="artista.html">Artistas</a>            
             <ul>
               <li><a href="artista.html#buscaArtista">Busca</a></li>              
               <li><a href="artista.html">Cadastro</a></li>              
             </ul>            
-          </li>          
-         
+          </li> 
           <li class="drop-down"><a href="albuns.html">Álbuns</a>
             <ul>
               <li><a href="albuns.html#buscaAlbum">Busca</a></li>              
               <li><a href="albuns.html">Cadastro</a></li>              
             </ul>            
           </li> 
-
         </ul>
-      </nav><!-- .main-nav -->
-      
+      </nav>      
     </div>
   </header><!-- #header -->  
 
   <main id="main">
-
    
     <!--==========================
       Contact Section
@@ -77,14 +70,17 @@
         </div>
 
         <form id="borda">
+
           <div  class="form-group">
             <label for="nome">Nome</label>
             <input type="text" class="form-control" id="nome" placeholder="">
           </div>
+
           <div class="form-group">
             <label for="duracao">Duração</label>
             <input type="number" class="form-control" id="duracao" placeholder="00:00">
           </div>
+
           <div class="form-group">
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -95,18 +91,17 @@
                 <a class="dropdown-item" href="#">Saia Rodada</a>
                 <a class="dropdown-item" href="#">Aviões do Forró</a>
               </div>              
-            </div><br>            
+            </div><br>    
+
           <div class="form-group">
-            <label for="albuns">Artistas Adicionados</label>
-            <textarea class="form-control" id="albuns" rows="3"></textarea>
+            <label for="artistasAdicionados">Artistas Adicionados</label>
+            <textarea class="form-control" id="artistasAdicionados" rows="3"></textarea>
           </div>
           </div>
 
           <button id="btSalvaMusica" type="submit" class="btn btn-primary mb-2">Salvar</button>
 
-        </form>
-       
-
+        </form> 
       </div>
 
      <div id="buscaMusica"></div> 
@@ -117,13 +112,13 @@
 
         <form id="borda">
           <div class="form-group">
-            <label for="nome">Informe o nome abaixo</label><br>
-            <input type="text" class="form-control" id="nome" placeholder=""><br>
-            <button id="btSalvaMusica" type="submit" class="btn btn-primary mb-2">Buscar</button><br>
+            <label for="nomeBusca">Informe o nome abaixo</label><br>
+            <input type="text" class="form-control" id="nomeBusca" placeholder=""><br>
+            <button id="btBuscaMusica" type="submit" class="btn btn-primary mb-2">Buscar</button><br>
           </div>          
           <div class="form-group">
             <label id="resultado" for="exampleFormControlTextarea1">Resultado</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" id="resultado" rows="3"></textarea>
           </div>
         </form>    
       </div>
