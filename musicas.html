@@ -34,12 +34,12 @@
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
 
-          <li><a href="">Home</a></li>
+          <li><a href="index.html">Home</a></li>
 
-          <li class="drop-down"><a href="musicas.html">Músicas</a>
+          <li class="drop-down"><a href="">Músicas</a>
             <ul>
               <li><a href="#">Busca</a></li>              
-              <li><a href="musicas.html">Cadastro</a></li>              
+              <li><a href="#">Cadastro</a></li>              
             </ul>            
           </li>
           
@@ -65,46 +65,39 @@
 
   <main id="main">
 
+   
     <!--==========================
-      Services Section
+      Contact Section
     ============================-->
-    <section id="services" class="section-bg">
-      <div class="container">
+    <section id="contact">
+      <div class="container-fluid">
 
-        <header class="section-header">
-          <h3>Lançamentos</h3>         
-        </header>
-
-        <div class="row">
-
-          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <img src="img/test2/albun0.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-
-           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <img src="img/test2/albun1.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <img src="img/test2/albun2.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-
-           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <img src="img/test2/albun3.jpg" class="img-fluid" alt="">
-            </div>
-          </div>         
-
+        <div class="section-header h3">
+          <h3>Cadastro de Músicas</h3>
         </div>
 
+        <form>
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="duracao">Duração</label>
+            <input type="number" class="form-control" id="duracao" placeholder="00:00">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Artistas</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>       
+        </form>
       </div>
-    </section><!-- #services --> 
+    </section><!-- #contact -->
 
   </main>
 
@@ -124,8 +117,8 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Links Úteis</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Músicas</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="cadastroMusica.html">Músicas</a></li>
               <li><a href="#">Artistas</a></li>
               <li><a href="#">Álbuns</a></li>              
               <li><a href="#">Lançamentos</a></li>              
