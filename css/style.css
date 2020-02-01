@@ -455,6 +455,11 @@ h6 {
 /* Sections Header
 --------------------------------*/
 
+.section-header h2{
+  margin-top: 25px;
+  text-align: center;
+}
+
 .section-header h3 {
   font-size: 36px;
   color: #283d50;
