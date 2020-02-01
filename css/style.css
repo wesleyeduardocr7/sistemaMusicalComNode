@@ -1063,8 +1063,19 @@ h6 {
   overflow: hidden;
 }
 
+#resultado{
+  font-weight: bold;
+  size: 15px;
+}
+
 #buscaMusica{
   background-color: #e7f0fa;
+}
+
+
+#borda{
+  border: 1px solid #000000;
+  padding: 10px 10px 10px 10px;
 }
 
 #contact .section-header {
