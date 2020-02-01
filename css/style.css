@@ -1068,6 +1068,10 @@ h6 {
   size: 15px;
 }
 
+#bold{
+  font-weight: bold;
+}
+
 #buscaMusica{
   background-color: #e7f0fa;
 }
@@ -1077,6 +1081,11 @@ h6 {
   border: 1px solid #000000;
   padding: 10px 10px 10px 10px;
 }
+
+#borda label{
+  font-weight: bold;
+}
+
 
 #contact .section-header {
   padding-bottom: 30px;
